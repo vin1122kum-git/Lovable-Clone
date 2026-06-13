@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
 public class AuthController {
 
-    AuthService authService;
+    AuthService authService ;
     UserService userService;
 
     @PostMapping("/signup")
